@@ -1,0 +1,57 @@
+.videoCard {
+    width: 400px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 2px;
+}
+
+.videoThumb {
+    width: 100%;
+    height: 80%;
+}
+
+.videoThumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.videoInfo {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 20%;
+}
+
+.channelLogo {
+    width: 20%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.channelLogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+}
+
+.videoText {
+    width: 80%;
+    text-align: left;
+}
+
+.videoTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.videoText p {
+    color: white;
+}
